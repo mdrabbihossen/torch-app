@@ -10,6 +10,10 @@ class TorchScreen extends StatefulWidget {
 class _TorchScreenState extends State<TorchScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('FlashLight'),
+      ),
+    );
   }
 }
